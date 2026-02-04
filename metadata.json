@@ -1,0 +1,7 @@
+{
+  "name": " HandSigns AI",
+  "description": "Real-time Hand Gesture Recognition using MediaPipe and Client-Side Machine Learning logic. Supports English voice feedback.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
