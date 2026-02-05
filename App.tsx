@@ -1,5 +1,6 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import LiveDetection from './pages/LiveDetection';
@@ -17,6 +18,7 @@ const App: React.FC = () => {
           <Route path="/gestures" element={<GestureInfo />} />
           <Route path="/about" element={<About />} />
         </Routes>
+        <SpeedInsights />
       </div>
     </Router>
   );
